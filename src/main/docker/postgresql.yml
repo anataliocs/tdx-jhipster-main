@@ -1,0 +1,12 @@
+version: '2'
+services:
+    tdxmain-postgresql:
+        container_name: tdxmain-postgresql
+        image: postgres:9.5.2
+        # volumes:
+        #     - ~/volumes/jhipster/tdxmain/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=tdxmain
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
