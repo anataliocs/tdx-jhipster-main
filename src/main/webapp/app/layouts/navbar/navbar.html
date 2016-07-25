@@ -8,8 +8,8 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand logo" href="#/" ng-click="vm.collapseNavbar()">
-                <img class="logo-img" src="content/images/logo-jhipster.png"/>
-                <span>Tdxmain</span> <span class="navbar-version">v{{VERSION}}</span>
+                <img class="logo-img" src="content/images/theta-delta-chi-logo-gold.png"/>
+                <span>Theta Delta Chi at VCU</span>
             </a>
         </div>
         <div class="navbar-collapse" uib-collapse="vm.isNavbarCollapsed" ng-switch="vm.isAuthenticated()">
@@ -80,6 +80,12 @@
                             <a ui-sref="register" ng-click="vm.collapseNavbar()">
                                 <span class="glyphicon glyphicon-plus-sign"></span>&nbsp;
                                 <span>Register</span>
+                            </a>
+                        </li>
+                        <li ng-hide="vm.inProduction">
+                            <a href='' target="" ng-click="vm.collapseNavbar()">
+                                <span class="glyphicon glyphicon-hdd"></span>&nbsp;
+                                <span class="navbar-version">v{{VERSION}}</span>
                             </a>
                         </li>
                     </ul>
