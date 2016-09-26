@@ -1,12 +1,14 @@
-# tdxmain
+# Theta Delta Chi Virginia Commonwealth University
 
-This application was generated using JHipster, you can find documentation and help at [https://jhipster.github.io](https://jhipster.github.io).
+This project is the new version of the collaboration, promotional and communications platform for the Theta Delta Chi Rho Triton Charge at VCU.
 
-This project is a collaboration, promotional and communications platform for the Theta Delta Chi Rho Triton Charge at VCU.
-
-Live site:  https://www.tdxvcu.com
+Current Live site:  https://www.tdxvcu.com
+    Built using: https://github.com/anataliocs/tdxmain
 
 ## Development
+
+
+This application was generated using JHipster, you can find documentation and help at [https://jhipster.github.io](https://jhipster.github.io).
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
 
